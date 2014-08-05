@@ -427,6 +427,7 @@
 		{
 			alert("Game over");
 			start_again();
+			location.reload();
 			is_game_over = 0;
 			
 			clearInterval(animateInterval);
